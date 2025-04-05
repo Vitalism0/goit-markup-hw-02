@@ -83,7 +83,7 @@ header {
   color: #404bbf;
   text-decoration: none;
 }
-.section-1 {
+.hero-section {
   background-color: #2e2f42;
 }
 .btn {
@@ -100,8 +100,14 @@ header {
   background-color: #404bbf;
 }
 
-.section-3 {
+.team-section {
   background-color: #f4f4fd;
+}
+.team-card {
+  background-color: #ffffff;
+}
+.team-text {
+  font-size: 16px;
 }
 footer {
   background-color: #2e2f42;
