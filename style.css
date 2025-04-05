@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+a {
+  font-size: 12px;
+  line-height: 1.33333;
+  letter-spacing: 4%;
+  text-decoration: none;
+  color: #434455;
+}
+a:hover {
+  color: #404bbf;
+  text-decoration: none;
+}
+header {
+  background-color: #e7e9fc;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo span {
+  color: #4d5ae5;
+}
+.menu-nav > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.ontacts-list > a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-1 {
+  background-color: #2e2f42;
+}
+.btn {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.section-3 {
+  background-color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+}
