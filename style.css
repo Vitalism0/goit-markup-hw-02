@@ -35,10 +35,7 @@ a {
   text-decoration: none;
   color: #434455;
 }
-a:hover {
-  color: #404bbf;
-  text-decoration: none;
-}
+
 header {
   background-color: #e7e9fc;
 }
@@ -48,22 +45,32 @@ header {
   line-height: 1.16667;
   letter-spacing: 3%;
   text-transform: uppercase;
+}
+.logo-header {
   color: #2e2f42;
+}
+.logo-footer {
+  color: #f4f4fd;
 }
 .logo span {
   color: #4d5ae5;
 }
-.menu-nav > a {
+.menu-nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
   color: #2e2f42;
 }
-.ontacts-list > a {
+.contacts-list a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.contacts-list a:hover,
+.contacts-list a:focus {
+  color: #404bbf;
+  text-decoration: none;
 }
 .section-1 {
   background-color: #2e2f42;
@@ -82,4 +89,7 @@ header {
 }
 footer {
   background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
 }
