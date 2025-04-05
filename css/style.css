@@ -40,8 +40,8 @@ a {
   color: #434455;
 }
 
-header {
-  background-color: #e7e9fc;
+ul {
+  list-style: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
