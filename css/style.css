@@ -6,16 +6,19 @@ body {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  text-align: center;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 h3 {
   font-weight: 500;
@@ -92,6 +95,11 @@ header {
   color: #ffffff;
   cursor: pointer;
 }
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+
 .section-3 {
   background-color: #f4f4fd;
 }
